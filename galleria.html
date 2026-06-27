@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Da Mimmo e Rocco - pizzeria Dalmine (BG)</title>
+<link rel="icon" type="image/png" href="LogoPizzeria.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="gallery-page-body">
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M3 10.5L12 3l9 7.5"/><path d="M5 10v10h14V10"/>
+            </svg>
+            <span>Home</span>
+        </a>
+        <a href="menu.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9"/><path d="M12 3v9l6 6"/>
+            </svg>
+            <span>Menù</span>
+        </a>
+        <a href="galleria.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9"/><path d="M21 16l-5-5-4 4-2-2-5 5"/>
+            </svg>
+            <span>Galleria</span>
+        </a>
+        <a href="info.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M21 10c0 6-9 11-9 11S3 16 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>Informazioni</span>
+        </a>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container nav">
+            <div class="logo">
+                <img src="LogoPizzeria.png" alt="">
+                <div>
+                    <h3>Da Mimmo e Rocco</h3>
+                    <span>PIZZERIA · DALMINE</span>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            <nav id="mobileMenu">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menù</a>
+                <a class="active" href="galleria.html">Galleria</a>
+                <a href="info.html">Informazioni</a>
+            </nav>
+            <a href="ordina.html" class="btn-outline">Ordina</a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="gallery-hero">
+        <div class="container">
+            <span class="section-subtitle">LE NOSTRE FOTO</span>
+            <h1>La pizzeria in immagini</h1>
+            <p>Scorci del locale, le nostre pizze e i momenti che rendono speciale ogni serata da Mimmo e Rocco.</p>
+        </div>
+        <div class="hero-wave"></div>
+    </section>
+
+    <!-- GALLERIA -->
+    <main class="container gallery-page">
+        <div class="gallery-grid" id="galleryGrid">
+
+            <!-- PIZZE -->
+            <div class="gallery-item" data-category="pizze" data-caption="La nostra margherita">
+                <div class="gallery-placeholder h-lg">
+                    <img src="fotoMimmo4.webp" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Pizza con Nutella?</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="locale" data-caption="Il nostro locale">
+                <div class="gallery-placeholder h-md">
+                    <img src="fotoMimmo3.webp" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Il nostro locale</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="pizze" data-caption="Pizza in uscita dal forno">
+                <div class="gallery-placeholder h-xl">
+                    <img src="fotoMimmo1.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Pizza in uscita dal forno</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="cucina" data-caption="Impasto artigianale">
+                <div class="gallery-placeholder h-xl">
+                    <img src="schiacciata.webp" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Una bella Schiacciata</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="pizze" data-caption="Speciale del giorno">
+                <div class="gallery-placeholder h-sm">
+                    <img src="fotoMimmo5.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Pizza al metro</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="momenti" data-caption="Una serata da noi">
+                <div class="gallery-placeholder h-md">
+                    <img src="fotoMimmo6.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">La pizza come non l'hai mai vista</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="locale" data-caption="La saletta interna">
+                <div class="gallery-placeholder h-lg">
+                    <img src="pizzaMimmo.jpg" alt="">>
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Una pizza fatta col cuore</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="pizze" data-caption="Diavola croccante">
+                <div class="gallery-placeholder h-md">
+                    <img src="fotoMimmo2.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Diavola croccante</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="cucina" data-caption="Il forno a legna">
+                <div class="gallery-placeholder h-sm">
+                    <img src="fotoMimmo7.webp" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Per gli amanti della rucola</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="momenti" data-caption="Famiglia e pizza">
+                <div class="gallery-placeholder h-xl">
+                    <img src="fotoMimmo8.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Chi la pizza se la gusta in famiglia</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="pizze" data-caption="Quattro stagioni">
+                <div class="gallery-placeholder h-lg">
+                    <img src="fotoMimmo11.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Per gli amanti del crudo</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="locale" data-caption="L'insegna">
+                <div class="gallery-placeholder h-sm">
+                    <img src="fotoMimmo13.webp" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">L'entrata</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="cucina" data-caption="Stesura della pasta">
+                <div class="gallery-placeholder h-md">
+                     <img src="fotoMimmo12.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Una pizza Particolare</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="pizze" data-caption="Capricciosa">
+                <div class="gallery-placeholder h-lg">
+                    <img src="fotoMimmo10.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Un gustoso Tronchetto</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="momenti" data-caption="Serata con amici">
+                <div class="gallery-placeholder h-md">
+                    <img src="fotoMimmo9.jpg" alt="">
+                </div>
+                <div class="gallery-overlay"><span class="gallery-caption">Serata con amici</span></div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">×</button>
+        <button class="lightbox-prev" id="lightboxPrev">‹</button>
+        <img src="" alt="" id="lightboxImg">
+        <button class="lightbox-next" id="lightboxNext">›</button>
+    </div>
+
+    <footer>
+        <div class="copyright">© 2026 Da Mimmo e Rocco</div>
+    </footer>
+
+<script>
+// hamburger
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+if (hamburger) {
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("open");
+        mobileMenu.classList.toggle("show");
+    });
+}
+
+// header scroll
+window.addEventListener("scroll", () => {
+    const header = document.querySelector("header");
+    header.style.padding = "10px 0";
+    header.style.width = window.scrollY > 50 ? "85%" : "90%";
+});
+
+// mobile nav
+const mobileNav = document.getElementById("mobileNav");
+window.addEventListener("scroll", () => {
+    if (window.innerWidth <= 768) {
+        mobileNav.classList.toggle("show", window.scrollY > 220);
+    }
+});
+
+// filtri
+const filterBtns = document.querySelectorAll(".filter-btn");
+const items = document.querySelectorAll(".gallery-item");
+
+filterBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+        filterBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        const filter = btn.dataset.filter;
+        items.forEach(item => {
+            const show = filter === "tutti" || item.dataset.category === filter;
+            item.style.display = show ? "block" : "none";
+        });
+    });
+});
+
+// lightbox (funziona solo con vere immagini, non con i placeholder)
+const lightbox   = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightboxImg");
+const lightboxClose = document.getElementById("lightboxClose");
+const lightboxPrev  = document.getElementById("lightboxPrev");
+const lightboxNext  = document.getElementById("lightboxNext");
+
+let currentIndex = 0;
+let visibleItems = [];
+
+function openLightbox(index) {
+    visibleItems = [...items].filter(i => i.style.display !== "none");
+    const img = visibleItems[index]?.querySelector("img");
+    if (!img) return;
+    currentIndex = index;
+    lightboxImg.src = img.src;
+    lightboxImg.alt = visibleItems[index].dataset.caption || "";
+    lightbox.classList.add("open");
+    document.body.style.overflow = "hidden";
+}
+
+items.forEach((item, i) => {
+    item.addEventListener("click", () => {
+        visibleItems = [...items].filter(it => it.style.display !== "none");
+        const idx = visibleItems.indexOf(item);
+        openLightbox(idx);
+    });
+});
+
+lightboxClose.addEventListener("click", () => {
+    lightbox.classList.remove("open");
+    document.body.style.overflow = "";
+});
+
+lightboxPrev.addEventListener("click", () => {
+    openLightbox((currentIndex - 1 + visibleItems.length) % visibleItems.length);
+});
+
+lightboxNext.addEventListener("click", () => {
+    openLightbox((currentIndex + 1) % visibleItems.length);
+});
+
+lightbox.addEventListener("click", e => {
+    if (e.target === lightbox) {
+        lightbox.classList.remove("open");
+        document.body.style.overflow = "";
+    }
+});
+
+document.addEventListener("keydown", e => {
+    if (!lightbox.classList.contains("open")) return;
+    if (e.key === "Escape") { lightbox.classList.remove("open"); document.body.style.overflow = ""; }
+    if (e.key === "ArrowLeft")  lightboxPrev.click();
+    if (e.key === "ArrowRight") lightboxNext.click();
+});
+// entrata elementi in sequenza
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("animate");
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll(
+    ".hero-left, .hero-content, .feature, .card, " +
+    "section, .platform-card, .call-card, .address-box, " +
+    ".social-card, .phone-card, .map-wrap, .orari-card, " +
+    ".gallery-item, .menu-item, .loyalty-banner, footer"
+).forEach((el, i) => {
+    el.style.animationDelay = `${i * 0.05}s`;
+    observer.observe(el);
+});
+
+// uscita pagina al click
+document.querySelectorAll("a").forEach(link => {
+    if (
+        link.hostname === window.location.hostname &&
+        !link.hash &&
+        link.target !== "_blank"
+    ) {
+        link.addEventListener("click", e => {
+            e.preventDefault();
+            const href = link.href;
+            const els = document.querySelectorAll(".animate");
+            els.forEach((el, i) => {
+                el.style.transition = `opacity .25s ease ${i * 0.03}s, transform .25s ease ${i * 0.03}s`;
+                el.style.opacity = "0";
+                el.style.transform = "translateY(-20px)";
+            });
+            setTimeout(() => { window.location.href = href; }, 350);
+        });
+    }
+});
+</script>
+
+</body>
+</html>

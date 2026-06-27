@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Da Mimmo e Rocco - pizzeria Dalmine (BG)</title>
+<link rel="icon" type="image/png" href="LogoPizzeria.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="menu.css">
+</head>
+
+<body class="menu-page-body">
+
+    <div class="mobile-nav" id="mobileNav">
+
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M3 10.5L12 3l9 7.5"/>
+                <path d="M5 10v10h14V10"/>
+            </svg>
+            <span>Home</span>
+        </a>
+
+        <a href="menu.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 3v9l6 6"/>
+            </svg>
+            <span>Menù</span>
+        </a>
+
+        <a href="galleria.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M21 16l-5-5-4 4-2-2-5 5"/>
+            </svg>
+            <span>Galleria</span>
+        </a>
+
+        <a href="info.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M21 10c0 6-9 11-9 11S3 16 3 10a9 9 0 1118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>Informazioni</span>
+        </a>
+
+    </div>
+
+<header>
+
+    <div class="container nav">
+
+        <div class="logo">
+            <img src="LogoPizzeria.png" alt="">
+            <div>
+                <h3>Da Mimmo e Rocco</h3>
+                <span>PIZZERIA · DALMINE</span>
+            </div>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a class="active" href="menu.html">Menù</a>
+            <a href="galleria.html">Galleria</a>
+            <a href="info.html">Informazioni</a>
+        </nav>
+
+        <a href="ordina.html" class="btn-outline">
+            Ordina
+        </a>
+
+    </div>
+</header>
+
+<section class="menu-hero">
+    <div class="container">
+        <span class="section-subtitle">IL NOSTRO MENÙ</span>
+        <h1>Tutte le nostre specialità</h1>
+        <p>Pizze classiche e gourmet, panuozzi, piadine, hamburger e tanto altro. Tutto preparato con impasto a lunga lievitazione e ingredienti selezionati.</p>
+    </div>
+    <div class="hero-wave"></div>
+</section>
+
+<div style="padding-top: 25px;" class="category-nav-wrapper" id="categoryNavWrapper">
+    <div class="container category-nav" id="categoryNav">
+        <a href="#pizze-classiche" class="cat-link active">🍕 Pizze Classiche</a>
+        <a href="#pizze-gourmet" class="cat-link">⭐ Pizze Gourmet</a>
+        <a href="#calzoni" class="cat-link">🥟 Calzoni</a>
+        <a href="#pizze-metro" class="cat-link">📏 Pizze al Metro</a>
+        <a href="#impasti" class="cat-link">🌾 Impasti &amp; Aggiunte</a>
+        <a href="#panuozzi" class="cat-link">🥖 Panuozzi</a>
+        <a href="#piadine" class="cat-link">🌯 Piadine</a>
+        <a href="#hamburger2" class="cat-link">🍔 Hamburger</a>
+        <a href="#schiacciata" class="cat-link">🫓 Schiacciata</a>
+        <a href="#tronchetti" class="cat-link">🥐 Tronchetti</a>
+        <a href="#friggitoria" class="cat-link">🍟 Friggitoria</a>
+        <a href="#dolci" class="cat-link">🍰 Dolci</a>
+        <a href="#bibite" class="cat-link">🥤 Bibite</a>
+    </div>
+</div>
+
+<main class="container menu-page">
+
+    <section class="menu-section" id="pizze-classiche">
+        <h2><span class="section-icon">🍕</span>Pizze Classiche</h2>
+        <div class="item-list">
+            <div class="menu-item"><div class="item-head"><h4>Marinara</h4><span class="dots"></span><span class="price">5,00 €</span></div><p>pomodoro, olive, aglio, origano</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Margherita</h4><span class="dots"></span><span class="price">5,50 €</span></div><p>pomodoro, mozzarella</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Biancaneve</h4><span class="dots"></span><span class="price">6,00 €</span></div><p>mozzarella, ricotta</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Prosciutto</h4><span class="dots"></span><span class="price">6,00 €</span></div><p>pomodoro, mozzarella, prosciutto cotto</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Würstel</h4><span class="dots"></span><span class="price">6,00 €</span></div><p>pomodoro, mozzarella, würstel</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Asparagi</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, asparagi, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Brie</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, brie</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Caprino</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, caprino</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Funghi</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, funghi</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Napoli</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pom., mozzarella, acciughe, olive, origano</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Peperoni</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, peperoni</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Pugliese</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, cipolle, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Rucola</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, rucola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Scamorza</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, scamorza</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Tonno</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, tonno</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Al Lardo</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, lardo di Colonnata</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Cozze</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, cozze</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Davide</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pom., pom. fresco, mozzarella, origano, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Lady Margherita</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pom., pomodoro fresco, mozzarella, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Milanese</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, asparagi, uovo, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Pancetta</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, pancetta</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Porcini</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, porcini, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Prosciutto e Funghi</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, cotto, funghi</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Ricotta e Spinaci</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, ricotta, spinaci</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Romana</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pom., mozz., acciughe, olive, origano, capperi</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Salame</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, salame</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Salamino Piccante</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, salamino piccante</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Salsiccia</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, salsiccia</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Siciliana</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, funghi, capperi, origano, acciughe</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Spinaci</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, spinaci</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Tonno e Cipolle</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, tonno, cipolle</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Zola</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pomodoro, mozzarella, zola</p></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="pizze-gourmet">
+        <h2><span class="section-icon">⭐</span>Pizze Gourmet</h2>
+        <div class="item-list">
+            <div class="menu-item"><div class="item-head"><h4>4 Formaggi</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, zola, fontina, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>4 Stagioni</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pom., mozz., cotto, carciofi, funghi, ricotta</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Americana</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, würstel, patatine</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Bersani</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, cipolle, salsiccia</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Branzi e Rucola</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, branzi, rucola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Bresaola</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, bresaola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Bufala</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella di bufala</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Capricciosa</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pom., mozzarella, cotto, carciofi, funghi, olive</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Caprino e Rucola</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, caprino, rucola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Chef</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pom., mozz., cotto, panna, grana a scaglie</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Crudo</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, crudo</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Gamberetti</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, gamberetti</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Kebab</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pom. fresco, mozz., tacchino, cipolla, insalata</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Parmigiana</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pom., pom. fresco, mozz., melanzane, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Polpa di Granchio</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, polpa di granchio</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Speck</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, speck</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Trevisana</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pomodoro, mozzarella, trevisana, zola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Verdure</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pom., mozz., spinaci, zucchine, melanzane, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Zola e Mele</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>mozzarella, zola, mele</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Zola e Noci</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>mozzarella, zola, noci</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Zola e Pere</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>mozzarella, zola, pere</p></div>
+            <div class="menu-item"><div class="item-head"><h4>3 Gusti</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom. fresco, crudo, rucola, scaglie di grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Angela</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, pomodoro fresco, mozzarella, taleggio, bresaola, mozzarella di bufala</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Bergamasca</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, polenta, porcini, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Berlusconi</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, porcini, bufala, crudo</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Bossi</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, crudo, melanzane</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Bresaola e Rucola</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, bresaola, rucola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Burrata</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, burrata</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Campagnola</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., pom. fresco, mozz., peperoni, tonno, capperi, olive</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Casimi</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, crudo, scamorza</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Chiara</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., pom. fresco, mozz., pesto, grana a scaglie</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Contadina</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, porcini, pancetta, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Crudo e Zola</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, crudo, zola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Del Bosco</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozzarella, porcini, asparagi, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Delizia</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., pom. fresco, mozzarella di bufala, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Dalmine</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., pom. fresco, mozzarella, cotto, porcini, asparagi, peperoni, salamino, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Diavola</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, salamino piccante, acciughe, capperi, peperoncino, origano, olive</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Di Mammà</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, uova, speck, rucola, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Di Pietro</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozz. di bufala, porcini, speck, rucola, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Estiva</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro fresco, bresaola, rucola, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Euro</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., patatine, grana, mozz. di bufala</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Farcita</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., carciofi, funghi, cotto, würstel, olive, salamino piccante</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Frutti di Mare</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, origano, frutti di mare</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Giuseppe</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, porcini, salsiccia, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Greta</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., pom. fresco, mozzarella, speck, scamorza, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>La Premiata</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, caprino, rucola, crudo</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Lucia</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella di bufala, rucola, crudo, grana a scaglie, pomodori freschi, gamberetti</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Luna</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, pomodoro fresco, mozzarella, cotto, asparagi, porcini, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Mari e Monti</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., frutti di mare, porcini, origano</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Messicana</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., cipolle, fagioli, salsiccia fresca, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Mimmo</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>mozzarella, gamberetti, scorza di limone, rucola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Mimmo e Rocco</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom. fresco, mozz., gamberetti, salmone, rucola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Montanara</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., formaggio montanaro, porcini, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Obama</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozzarella, bufala, salsiccia, crudo</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Oscar</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., pom. fresco, mozz., porcini, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Pissaldiere</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom. fresco, mozz., gamberetti, olive</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Pudica</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom. fresco, mozz., bresaola, rucola, grana a scaglie</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Romagnola</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., pom. fresco, mozz., funghi, salamino piccante, würstel</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Rustica</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozzarella, pancetta, uovo, würstel</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Rusticaccia</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>mozz., friarielli (broccoli campani), salsiccia, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Salmone</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, salmone affumicato</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Saporita</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozzarella, taleggio, salsiccia, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Simone</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., pom. fresco, mozzarella, crudo, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Speciale</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., cotto, funghi, peperoni, würstel, olive</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Speck e Zola</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, speck, zola</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Super</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., porcini, formaggio montanaro, salsiccia, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Tirolese</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, porcini, speck, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Vicinato</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., uovo sbattuto, salsiccia, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Vittoria</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pom., mozz., salsiccia, cipolle, uova, grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Vulcano (doppia pasta)</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pomodoro, mozzarella, cotto, funghi</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Bologna e Granella di Pistacchi</h4><span class="dots"></span><span class="price">8,50 €</span></div><p>pistacchio granella, mortadella, bufala</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Dello Sceriffo</h4><span class="dots"></span><span class="price">9,00 €</span></div><p>pom., mozzarella, zola, fontina, salamino, capperi, olive, acciughe, peperoncino, origano</p></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="calzoni">
+        <h2><span class="section-icon">🥟</span>Calzoni</h2>
+        <div class="item-list">
+            <div class="menu-item"><div class="item-head"><h4>Liscio</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>pomodoro, mozzarella, prosciutto cotto</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Ricotta</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pom., mozzarella, prosciutto cotto, ricotta</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Prosciutto e Funghi</h4><span class="dots"></span><span class="price">7,00 €</span></div><p>pom., mozz., prosciutto cotto, funghi</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Farcito</h4><span class="dots"></span><span class="price">7,50 €</span></div><p>pom., mozz., carciofi, funghi, prosciutto cotto</p></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="pizze-metro">
+        <h2><span class="section-icon">📏</span>Pizze al Metro e Giganti</h2>
+        <div class="item-list">
+            <div class="menu-item"><div class="item-head"><h4>1/2 Metro Margherita</h4><span class="dots"></span><span class="price">17,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>1/2 Metro Farcita</h4><span class="dots"></span><span class="price">da 19,00 € a 22,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>1 Metro Margherita</h4><span class="dots"></span><span class="price">24,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>1 Metro Farcita</h4><span class="dots"></span><span class="price">da 27,00 € a 32,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Gigante Margherita</h4><span class="dots"></span><span class="price">12,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Gigante Farcita</h4><span class="dots"></span><span class="price">da 14,00 € a 17,00 €</span></div></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="impasti">
+        <h2><span class="section-icon">🌾</span>Scegli l'Impasto</h2>
+        <div class="item-list two-col">
+            <div class="menu-item"><div class="item-head"><h4>Integrale</h4><span class="dots"></span><span class="price">+1,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Kamut</h4><span class="dots"></span><span class="price">+1,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Senza glutine</h4><span class="dots"></span><span class="price">+4,00 €</span></div></div>
+        </div>
+        <h2 style="margin-top:40px;"><span class="section-icon">➕</span>Aggiunte</h2>
+        <div class="item-list two-col">
+            <div class="menu-item"><div class="item-head"><h4>Doppia mozzarella</h4><span class="dots"></span><span class="price">+1,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Doppia pasta</h4><span class="dots"></span><span class="price">+1,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Altre aggiunte</h4><span class="dots"></span><span class="price">+1,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Mozzarella senza lattosio</h4><span class="dots"></span><span class="price">+1,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Pizza baby</h4><span class="dots"></span><span class="price">-1,00 €</span></div></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="panuozzi">
+        <h2><span class="section-icon">🥖</span>Panuozzi</h2>
+        <p class="section-note">Grande panino fatto con la pasta della pizza, cotto nel forno e farcito successivamente.</p>
+        <div class="item-list two-col">
+            <div class="menu-item"><div class="item-head"><h4>Cotto e mozzarella</h4><span class="dots"></span><span class="price">7,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Crudo e mozzarella</h4><span class="dots"></span><span class="price">7,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Kebab</h4><span class="dots"></span><span class="price">7,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Pancetta e mozzarella</h4><span class="dots"></span><span class="price">7,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Speck e mozzarella</h4><span class="dots"></span><span class="price">7,00 €</span></div></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="piadine">
+        <h2><span class="section-icon">🌯</span>Piadine</h2>
+        <div class="item-list two-col">
+            <div class="menu-item"><div class="item-head"><h4>Cotto e mozzarella</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Crudo e mozzarella</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Farcite</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Kebab</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Pancetta e mozzarella</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Speck e mozzarella</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Squacquerone + 2 ingredienti a scelta</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="hamburger2">
+        <h2><span class="section-icon">🍔</span>Hamburger</h2>
+        <div class="item-list">
+            <div class="menu-item"><div class="item-head"><h4>Classico</h4><span class="dots"></span><span class="price">6,00 €</span></div><p>hamburger, pomodoro, insalata, salsa a scelta</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Bacon</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>hamburger, pomodoro, insalata, bacon, cheddar, salsa a scelta</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Cheese</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>hamburger, pomodoro, insalata, bacon, cheddar, sottiletta, salsa a scelta</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Chicken</h4><span class="dots"></span><span class="price">6,50 €</span></div><p>cotoletta di pollo, pomodoro, insalata, salsa a scelta</p></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="schiacciata">
+        <h2><span class="section-icon">🫓</span>Schiacciata</h2>
+        <p class="section-note">Pasta della pizza cotta in forno e successivamente farcita con...</p>
+        <div class="item-list">
+            <div class="menu-item"><div class="item-head"><h4>Bresaola</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>bresaola, pomodoro fresco, scaglie di grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Crudo</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>crudo, pomodoro fresco, scaglie di grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Pancetta</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>pancetta, pomodoro fresco, scaglie di grana</p></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="tronchetti">
+        <h2><span class="section-icon">🥐</span>Tronchetti</h2>
+        <p class="section-note">Grande panino arrotolato, fatto con la pasta della pizza, cotto e farcito in forno.</p>
+        <div class="item-list">
+            <div class="menu-item"><div class="item-head"><h4>Normale</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>mozzarella, formaggi misti e, dopo la cottura, aggiunta di crudo, rucola e grana</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Affumicato</h4><span class="dots"></span><span class="price">8,00 €</span></div><p>mozzarella, provola affumicata e, dopo la cottura, aggiunta di speck, rucola e grana</p></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="friggitoria">
+        <h2><span class="section-icon">🍟</span>Friggitoria</h2>
+        <div class="item-list two-col">
+            <div class="menu-item"><div class="item-head"><h4>Patatine fritte piccola</h4><span class="dots"></span><span class="price">2,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Patatine fritte grande</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Crocchette di patate 8 pz</h4><span class="dots"></span><span class="price">3,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Crocchette di pollo 8 pz</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Olive ascolane 8 pz</h4><span class="dots"></span><span class="price">3,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Chele di granchio 6 pz</h4><span class="dots"></span><span class="price">5,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Speedy pollo 8 pz</h4><span class="dots"></span><span class="price">3,50 €</span></div></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="dolci">
+        <h2><span class="section-icon">🍰</span>Dolci</h2>
+        <div class="item-list two-col">
+            <div class="menu-item"><div class="item-head"><h4>Meringa</h4><span class="dots"></span><span class="price">3,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Piadina alla Nutella</h4><span class="dots"></span><span class="price">3,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Profitterolles</h4><span class="dots"></span><span class="price">3,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Tiramisù</h4><span class="dots"></span><span class="price">3,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Pizza alla Nutella</h4><span class="dots"></span><span class="price">5,00 €</span></div></div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="bibite">
+        <h2><span class="section-icon">🥤</span>Bibite</h2>
+        <div class="item-list two-col">
+            <div class="menu-item"><div class="item-head"><h4>Bibite in lattina 33 cl</h4><span class="dots"></span><span class="price">2,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Acqua 0,5 lt</h4><span class="dots"></span><span class="price">1,00 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Bibite in bottiglia grande</h4><span class="dots"></span><span class="price">3,50 €</span></div><p>Coca Cola, Fanta, Sprite, The limone e pesca</p></div>
+            <div class="menu-item"><div class="item-head"><h4>Birre in bottiglia 33 cl</h4><span class="dots"></span><span class="price">2,50 €</span></div></div>
+            <div class="menu-item"><div class="item-head"><h4>Birre in bottiglia 66 cl</h4><span class="dots"></span><span class="price">3,50 €</span></div></div>
+        </div>
+    </section>
+
+    <div class="loyalty-banner">
+        <div>
+            <h3>Richiedi la tessera a punti</h3>
+            <p>Ogni 10 pizze: sconto di 5,00 €</p>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div class="copyright">
+        © 2026 Da Mimmo e Rocco
+    </div>
+</footer>
+
+<script>
+// Hamburger menu (mobile dropdown coerente con la home)
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+if (hamburger) {
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("open");
+        mobileMenu.classList.toggle("show");
+    });
+}
+
+// Header style on scroll (stesso comportamento della home)
+window.addEventListener("scroll", () => {
+    const header = document.querySelector("header");
+    if (window.scrollY > 50) {
+        header.style.padding = "10px 0";
+        header.style.width = "85%";
+    } else {
+        header.style.padding = "10px 0";
+        header.style.width = "90%";
+    }
+});
+
+// Bottom mobile nav (stessa logica della home)
+const mobileNav = document.getElementById("mobileNav");
+window.addEventListener("scroll", () => {
+    if (window.innerWidth <= 768) {
+        if (window.scrollY > 220) {
+            mobileNav.classList.add("show");
+        } else {
+            mobileNav.classList.remove("show");
+        }
+    }
+});
+
+// Sticky category nav: scroll orizzontale automatico + stato attivo in base alla sezione visibile
+const catLinks = document.querySelectorAll(".cat-link");
+const sections = document.querySelectorAll(".menu-section");
+const catNav = document.getElementById("categoryNav");
+
+catLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute("href"));
+        const offset = 140;
+        window.scrollTo({
+            top: target.offsetTop - offset,
+            behavior: "smooth"
+        });
+    });
+});
+
+function setActiveCategory() {
+    let currentId = sections[0].id;
+    const triggerPoint = window.scrollY + 160;
+
+    sections.forEach(section => {
+        if (section.offsetTop <= triggerPoint) {
+            currentId = section.id;
+        }
+    });
+
+    catLinks.forEach(link => {
+        link.classList.toggle("active", link.getAttribute("href") === "#" + currentId);
+    });
+
+    const activeLink = document.querySelector(".cat-link.active");
+    if (activeLink && catNav) {
+        const linkLeft = activeLink.offsetLeft;
+        const linkWidth = activeLink.offsetWidth;
+        catNav.scrollTo({
+            left: linkLeft - catNav.clientWidth / 2 + linkWidth / 2,
+            behavior: "smooth"
+        });
+    }
+// entrata elementi in sequenza
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("animate");
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll(
+    ".hero-left, .hero-content, .feature, .card, " +
+    "section, .platform-card, .call-card, .address-box, " +
+    ".social-card, .phone-card, .map-wrap, .orari-card, " +
+    ".gallery-item, .menu-item, .loyalty-banner, footer"
+).forEach((el, i) => {
+    el.style.animationDelay = `${i * 0.05}s`;
+    observer.observe(el);
+});
+
+// uscita pagina al click
+document.querySelectorAll("a").forEach(link => {
+    if (
+        link.hostname === window.location.hostname &&
+        !link.hash &&
+        link.target !== "_blank"
+    ) {
+        link.addEventListener("click", e => {
+            e.preventDefault();
+            const href = link.href;
+            const els = document.querySelectorAll(".animate");
+            els.forEach((el, i) => {
+                el.style.transition = `opacity .25s ease ${i * 0.03}s, transform .25s ease ${i * 0.03}s`;
+                el.style.opacity = "0";
+                el.style.transform = "translateY(-20px)";
+            });
+            setTimeout(() => { window.location.href = href; }, 350);
+        });
+    }
+});
+}
+
+window.addEventListener("scroll", setActiveCategory);
+setActiveCategory();
+</script>
+
+</body>
+</html>
